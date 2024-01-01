@@ -1,0 +1,8 @@
+resource_management:
+  exclude:
+    plan_items:
+      item-software-bill-of-materials:
+        resources:
+          - name: stam_repo
+          - name: .jit
+            
